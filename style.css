@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.container{
+    background-image: url(./pics/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-top: 2rem;
+    margin-right: 10rem;
+
+}
+
+.header {
+    /* background-color: orange; */
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+}
+
+.progress_bar {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.bar_border {
+    background-color: white;
+    width: 45rem;
+    border: 0.01px solid black;
+}
+
+.bar_progress {
+    background: lightblue;
+    height: 0.8rem;
+    width: 70%;
+}
+
+.bar_status {
+    width: 45rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_location {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.button {
+    background-color: lightblue;
+    /* border: 0.1px solid red; */
+    border: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact {
+    flex-grow: 1;
+    /* background: yellow; */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    background: transparent;
+    border-top: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
